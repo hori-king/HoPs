@@ -5,7 +5,7 @@ const target = document.querySelector('.OTHER');
 
 //ハンバーガメニュー、リスト以外の場所を押したとき閉じる
 gray.addEventListener('click',function(){
-    this.classList.toggle('active'); //グレーのところ押したら
+    gray.classList.toggle('active'); //グレーのところ押したら
     hamburger.classList.toggle('active'); //ハンバーガーに戻る
     list.classList.toggle('active'); //リストを閉じる
 });
@@ -23,9 +23,4 @@ document.querySelector('.other_list').addEventListener('click',function(){
     list.classList.toggle('active'); //リストを閉じる
     gray.classList.toggle('active'); //背景の色を変える
     target.scrollIntoView({block:'start'}); //OTHERとこまでスクロール
-});
-
-//フッターのOTHERを押したら移動する
-document.querySelector('.other_list2').addEventListener('click',function(){
-    target.scrollIntoView({block:'start'});
 });
