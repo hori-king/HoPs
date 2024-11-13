@@ -35,16 +35,6 @@ document.querySelector('.other_list').addEventListener('click',function(){
     }else{};
 });
 
-//リスト内のHOMEを押したとき
-document.querySelector('.home_list').addEventListener('click',function(){
-    hamburger.classList.toggle('active'); //ハンバーガーに戻る
-    list.classList.toggle('active'); //リストを閉じる
-
-    if(window.matchMedia('(max-width: 650px)').matches){
-        gray.classList.toggle('active'); //背景の色を変える
-    }else{};
-});
-
 //ハンバーガメニュー、リスト以外の場所を押したとき閉じる
 gray.addEventListener('click',function(){
     this.classList.toggle('active'); //グレーのところ押したら
