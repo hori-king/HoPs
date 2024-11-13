@@ -8,12 +8,6 @@ gray.addEventListener('click',function(){
     this.classList.toggle('active'); //グレーのところ押したら
     hamburger.classList.toggle('active'); //ハンバーガーに戻る
     list.classList.toggle('active'); //リストを閉じる
-
-    if(window.matchMedia('(min-width: 650px)').matches){
-        document.querySelector('.OTHER_list').classList.toggle('active'); //リストが出てくる
-    }else{
-        document.querySelector('.active').classList.toggle('active'); //リストを閉じる
-    }
 });
 
 //ハンバーガーメニュー
@@ -33,13 +27,6 @@ document.querySelector('.other_list').addEventListener('click',function(){
     if(window.matchMedia('(max-width: 650px)').matches){
         gray.classList.toggle('active'); //背景の色を変える
     }else{};
-});
-
-//ハンバーガメニュー、リスト以外の場所を押したとき閉じる
-gray.addEventListener('click',function(){
-    this.classList.toggle('active'); //グレーのところ押したら
-    hamburger.classList.toggle('active'); //ハンバーガーに戻る
-    list.classList.toggle('active'); //リストを閉じる
 });
 
 //フッターのOTHERを押したら移動する
