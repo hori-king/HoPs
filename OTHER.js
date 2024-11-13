@@ -21,6 +21,7 @@ hamburger.addEventListener('click',function(){
 document.querySelector('.other_list').addEventListener('click',function(){
     hamburger.classList.toggle('active'); //ハンバーガーに戻る
     list.classList.toggle('active'); //リストを閉じる
-    gray.classList.toggle('active'); //背景の色を変える
-    target.scrollIntoView({block:'start'}); //OTHERとこまでスクロール
+    if(window.matchMedia('(max-width: 650px)').matches){
+        document.querySelector('.gray_display').classList.toggle('active'); //背景の色を変える
+    }else{};
 });
