@@ -204,8 +204,8 @@
 /*1200px以下の画面*/
 @media screen and (min-width: 651px) and (max-width: 1200px){
     .about{
-        height: 1100px;
-        padding: 150px 0;
+        height: 1050px;
+        padding: 120px 0;
     }
         /*真ん中*/
     .about_logo{
@@ -213,7 +213,7 @@
         height: 55px;
     }
     .text{
-        margin: 30px auto 100px auto;
+        margin: 30px auto 0 auto;
         width: 70%;
     }
 
