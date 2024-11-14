@@ -202,7 +202,7 @@
 
 
 /*1024px以下の画面*/
-@media screen and (min-width: 651px) and (max-width: 1024px){
+@media screen and (min-width: 651px) and (max-width: 1200px){
     .about{
         height: 1000px;
         padding: 150px 0;
