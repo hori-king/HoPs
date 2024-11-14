@@ -97,8 +97,6 @@
     flex-direction: column;
     position: relative;
     align-items: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 /*真ん中*/
