@@ -135,6 +135,9 @@
     border-radius: 30px;
 }
 
+h3{
+    font-weight: 100;
+}
 
 /*370px以下の画面*/
 @media screen and (min-width: 0px) and (max-width: 370px) {
