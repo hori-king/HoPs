@@ -19,7 +19,7 @@
     top: 10vh;
     transition: .2s;
     transform: translateY(-200%);
-    z-index: 20;
+    z-index: 25;
 }
 
 .other_in{
