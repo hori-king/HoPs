@@ -737,8 +737,7 @@ footer{
     .o_flame{
         width: 80%;
     }
-
-    
+ 
     /* other 写真 */
     .other{
         display: block;
@@ -746,9 +745,11 @@ footer{
     /* サイトなどの写真 */
     .HUSBOX_pic{
         width: 250px;
+        margin-top: 5px;
     }
     .board_pic{
         width: 83px;
+        margin-top: 5px;
     }
 
     /* サイト名 */
