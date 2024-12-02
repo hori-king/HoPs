@@ -425,14 +425,23 @@ header img{
 
 /* サイト名 */
 .siteName{
-    margin-top: 50px;
     font-weight: bold;
+    margin: 40px 0 20px 0;
 }
+
+.board{
+    display: flex;
+}
+
 /* サイトなどの写真 */
-.other img{
+.HUSBOX_pic{
     width: 400px;
     height: 200px;
-    margin-bottom: 20px;
+}
+.board_pic{
+    width: 130px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
 /* 各サイトの枠 */
@@ -444,6 +453,7 @@ header img{
     text-decoration: none;
     display: block;
 }
+
 /* 説明文 */
 .explain{
     width: 15em;
