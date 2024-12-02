@@ -743,9 +743,12 @@ footer{
     .other{
         display: block;
     }
-    .other img{
+    /* サイトなどの写真 */
+    .HUSBOX_pic{
         width: 250px;
-        margin-bottom: 10px;
+    }
+    .board_pic{
+        width: 83px;
     }
 
     /* サイト名 */
